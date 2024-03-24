@@ -4,7 +4,7 @@
 
 In today's age, the merging of technology and healthcare has sparked pioneering solutions that transform the landscape of medical treatment. The intelligent personal healthcare system utilizing AVR-IoT Cellular Mini epitomizes an advanced fusion of information technology and personalized healthcare. This state-of-the-art system leverages the capabilities of the AVR-IoT Cellular Mini, an embedded development platform that seamlessly integrates microcontroller functionalities with cellular connectivity. Through the integration of sophisticated sensors and cutting-edge artificial intelligence algorithms, this solution establishes an unparalleled ecosystem for personalized healthcare and continuous monitoring.
 
-![Texto alternativo](static(Fig_1.jpeg)
+![Texto alternativo](static/Fig_1.jpeg)
 
 
 
