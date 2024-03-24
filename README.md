@@ -25,6 +25,7 @@ To address this challenge, we propose leveraging the AVR-IoT Cellular Mini syste
 
 Upon completion of the pre-analysis, the server sends a notification to the user. This notification can be exhibited on an LCD screen or relayed to the M5ATOM Echo Smart Speaker. The M5 will act as a voice playback system, enabling it to convey messages affirming that everything is satisfactory or advising the user to contact their doctor as necessary.
 
+![Texto alternativo](static/CaseAssistant.png)
 
 ### Hardware:
 1. AVR-IoT Mini Cellular
@@ -46,9 +47,13 @@ Upon completion of the pre-analysis, the server sends a notification to the user
 
 
 
-###Assistant
+### Assistant:
 
 The assistant is composed of a series of hardware components, which when combined, enable the capture, communication, and analysis of ECG signals.
+
+![Texto alternativo](static/RobotFace.png)
+
+
 
 The first of these hardware components and the heart of this assistant is the AVR-IoT Mini Cellular. This development system, created by Microchip Technology (EV70N78A), is a comprehensive platform that can be used to evaluate and develop IoT solutions. It incorporates the following components:
 
@@ -76,3 +81,4 @@ The first of these hardware components and the heart of this assistant is the AV
 ![Texto alternativo](static/Microchip_EV70N78A_BL.png.jpeg)
 
 Additionally, the development board is compatible with the cellular Arduino library and offers USB, battery, and external-input power options. It includes an MCP73830 Li-ion/LiPo battery charger with charge status LED and two fixed power domains: 1.8V and 3.3V.
+
