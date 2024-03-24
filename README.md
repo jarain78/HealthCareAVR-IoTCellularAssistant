@@ -7,7 +7,6 @@ In today's age, the merging of technology and healthcare has sparked pioneering 
 ![Texto alternativo](static/Fig_1.jpeg)
 
 
-
 **Some of the problems to be solved by An Intelligent Personal Healthcare System leveraging AVR-IoT Cellular Mini are as follows:**
 
 1. **Remote Patient Monitoring:** The system can track vital signs, such as heart rate, blood pressure, and temperature, enabling remote monitoring of patients. This can be particularly useful for individuals with chronic conditions or elderly patients who require continuous supervision.
@@ -26,21 +25,14 @@ To address this challenge, we propose leveraging the AVR-IoT Cellular Mini syste
 
 Upon completion of the pre-analysis, the server sends a notification to the user. This notification can be exhibited on an LCD screen or relayed to the M5ATOM Echo Smart Speaker. The M5 will act as a voice playback system, enabling it to convey messages affirming that everything is satisfactory or advising the user to contact their doctor as necessary.
 
-### How is it different from existing solutions?
-
-Unlike existing systems, which may suffer from the loss of crucial health data and lack real-time analysis capabilities, our proposed solution leverages advanced technology to ensure data preservation and timely risk detection. By integrating the AVR-IoT Cellular Mini system with deep-learning models, we bridge the gap in healthcare information availability and diagnostic accuracy. Additionally, the use of M5ATOM Echo Smart Speaker for notifications provides a user-friendly interface for conveying important health information.
-
-### Why is it useful?
-
-Our solution is useful because it addresses the critical issue of insufficient information available to doctors during patient visits. By preserving and analyzing vital health data in real-time, it enables prompt disease detection and informed diagnoses. Furthermore, the user-friendly notification system ensures that individuals are promptly informed of any health concerns, empowering them to take proactive steps towards maintaining their well-being.
 
 ### Hardware:
-1. Cardio chip: BMD101
-2. SPO2 sensor: MAX30102
-3. MLX90640 IR Array Thermal Imaging Camera, 32×24 Pixels, 55° Field of View,  I2C Interface
-4. M5Stack S3
-5. Raspberry Pi as a server
-6. Other components (unspecified)
+1. AVR-IoT Mini Cellular
+2. Cardio chip: BMD101
+3. SPO2 sensor: MAX30102
+4. MLX90640 IR Array Thermal Imaging Camera, 32×24 Pixels, 55° Field of View,  I2C Interface
+5. M5Stack S3
+6. Raspberry Pi as a server
 
 ### Software:
 1. Embedded software for Cardio chip (if required)
@@ -51,3 +43,36 @@ Our solution is useful because it addresses the critical issue of insufficient i
 6. Software for user interface and notifications
 7. Communication protocols 
 8. Development tools and libraries for software development and integration
+
+
+
+###Assistant
+
+The assistant is composed of a series of hardware components, which when combined, enable the capture, communication, and analysis of ECG signals.
+
+The first of these hardware components and the heart of this assistant is the AVR-IoT Mini Cellular. This development system, created by Microchip Technology (EV70N78A), is a comprehensive platform that can be used to evaluate and develop IoT solutions. It incorporates the following components:
+
+- AVR128DB48 AVR® microcontroller
+- ATECC608B CryptoAuthentication™ device
+- 25CSM04 serial EEPROM 4Mb
+- GM02S cellular module
+- 824-2170MHz cellular flexible antenna
+- Prepaid SIM card from Truphone 150MB data included
+- Nano SIM card holder
+- eSIM footprint
+- 5 user LEDs
+- 2 mechanical buttons
+- VMK3-9002 32.768kHz crystal
+- VEML3328 color sensor
+- MCP9808 temperature sensor
+- Adafruit feather-compatible edge connector
+- Qwiic® I2C connector
+- Onboard debugger
+- Board identification in Microchip Studio and Microchip MPLAB® X
+- One green power and status LED
+- Virtual serial port (USB CDC)
+- Two logic analyzer channels (debug GPIO)
+
+![Texto alternativo](static/Microchip_EV70N78A_BL.png.jpeg)
+
+Additionally, the development board is compatible with the cellular Arduino library and offers USB, battery, and external-input power options. It includes an MCP73830 Li-ion/LiPo battery charger with charge status LED and two fixed power domains: 1.8V and 3.3V.
